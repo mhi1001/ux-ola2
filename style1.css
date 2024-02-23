@@ -19,6 +19,7 @@ h1, h2, h3, h4 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
 button {
     background-color: #0056b3;
     color: #fff;
@@ -37,4 +38,47 @@ button:hover {
 
 .meta, .copy {
     color: #666;
+}
+
+
+.colors{
+    display:flex;
+    flex-direction:row;
+
+}
+.color-sample1{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#BEDC60;
+}
+.color-sample2{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#CACAA5;
+}
+.color-sample3{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#26AEEB;
+}
+.color-sample4{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#AF9107;
+}
+.color-sample5{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#ffffff;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
 }
