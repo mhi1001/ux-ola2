@@ -5,12 +5,12 @@ body {
     color: #333;
     background-color: #f4f4f4;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    margin:20px;
+    paddin:20px;
 }
 
 h1, h2, h3, h4 {
-    color: #0056b3;
+    color: #26AEEB;
     margin-bottom: 0.5em;
 }
 
@@ -21,7 +21,7 @@ h1, h2, h3, h4 {
 
 
 button {
-    background-color: #0056b3;
+    background-color: #4169E1;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -33,7 +33,7 @@ button {
 }
 
 button:hover {
-    background-color: #003d7a;
+    background-color: #26AEEB;
 }
 
 .meta, .copy {
@@ -51,30 +51,48 @@ button:hover {
     width:100px;
     height:100px;
     background:#BEDC60;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
 }
 .color-sample2{
     display:flex;
     width:100px;
     height:100px;
     background:#CACAA5;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
 }
 .color-sample3{
     display:flex;
     width:100px;
     height:100px;
     background:#26AEEB;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
 }
 .color-sample4{
     display:flex;
     width:100px;
     height:100px;
     background:#AF9107;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
 }
 .color-sample5{
     display:flex;
     width:100px;
     height:100px;
     background:#ffffff;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
+.color-sample6{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#4169E1;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
 }
 img{
     height: 200px;
