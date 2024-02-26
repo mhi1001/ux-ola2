@@ -1,26 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: 'Playfair Display', serif;
-    background-color: #fff0f5;
-    color: #444;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #cc1515;
+    background-color: #bbf0f6;
+    line-height: 1.6;
+    margin:20px;
+    padding:20px;
 }
 
 h1, h2, h3, h4 {
-    color: #db7093;
+    color: #9d07ab;
     margin-bottom: 0.5em;
 }
 
 .color-sample {
-    background: #db7093;
+    background: #b8bec5;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
 button {
-    background-color: #db7093;
+    background-color: #e304d5c1;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -32,9 +33,70 @@ button {
 }
 
 button:hover {
-    background-color: #c06082;
+    background-color: #8e0e7b;
 }
 
 .meta, .copy {
-    color: #777;
+    color: #bb4646;
+}
+
+
+.colors{
+    display:flex;
+    flex-direction:row;
+
+}
+.color-sample1{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#e1425c;
+    border: 1px solid #64034c;
+    border-radius: 10px;
+}
+.color-sample2{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:rgb(10, 224, 243);
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
+.color-sample3{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:#5ac1a4;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
+.color-sample4{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:skyblue;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
+.color-sample5{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:pink;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
+.color-sample6{
+    display:flex;
+    width:100px;
+    height:100px;
+    background:blueviolet;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #AF9107;
+    border-radius: 10px;
 }
